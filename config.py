@@ -4,6 +4,7 @@ class Settings(BaseSettings):
     DB_PATH: str = "parser.db"
     MAX_CONCURRENT_REQUESTS: int = 5
     TIMEOUT_SECONDS: int = 10
+    BOT_TOKEN: str = ""
 
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")
 
