@@ -1,4 +1,4 @@
-# async data vcraper & REST API core
+# async data scraper & REST API core
 
 a high-performance, asynchronous data collection and management pipeline built with **FastAPI**, **aiohttp**, and **Pydantic v2**
 
