@@ -49,3 +49,8 @@ python main.py
 ```
 open http://127.0.0.1:8000/docs in your browser to trigger background scraping tasks and inspect stored data
 ```
+
+5. (optional) telegram connection
+```
+create bot https://t.me/BotFather and put token in .env
+```
